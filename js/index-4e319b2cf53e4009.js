@@ -465,7 +465,8 @@
             }).apply(null, arguments);
       }
       var s = function (e) {
-          return u.createElement(
+          return
+           u.createElement(
             "svg",
             f(
               {
@@ -547,6 +548,12 @@
                     (0, a.jsx)("img", {
                       src: "/images/logo.png",
                       className: "w-[240px] h-auto mb-4",
+                      alt: "",
+                    }),
+                    (0, a.jsx)("img", {
+                      src: "/pac.png",
+                      style: { width: "373px", height: "210px" },
+                      className: " mb-4",
                       alt: "",
                     }),
                     (0, a.jsx)(s, {}),
