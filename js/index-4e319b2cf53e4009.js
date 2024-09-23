@@ -552,8 +552,8 @@
                     }),
                     (0, a.jsx)("img", {
                       src: "/pac.png",
-                      style: { width: "373px", height: "210px" },
-                      className: " mb-4",
+                      style: { width: "373px", height: "54px" },
+                      // className: " mb-4",
                       alt: "",
                     }),
                     (0, a.jsx)(s, {}),
